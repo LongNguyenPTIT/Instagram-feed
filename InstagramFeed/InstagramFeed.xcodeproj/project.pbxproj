@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41251E521DAFD7D900F21E9E /* ParseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41251E511DAFD7D900F21E9E /* ParseData.swift */; };
+		41251E541DAFD95900F21E9E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41251E531DAFD95900F21E9E /* PhotoViewController.swift */; };
+		41251E581DAFF18200F21E9E /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41251E571DAFF18200F21E9E /* PhotoCell.swift */; };
+		41251E5A1DAFF69000F21E9E /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41251E591DAFF69000F21E9E /* PhotoDetailViewController.swift */; };
+		41C0FDB31DAEAAB700E967C6 /* InstaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C0FDB21DAEAAB700E967C6 /* InstaModel.swift */; };
 		41C8629A1DAEA79600B9B3CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C862991DAEA79600B9B3CD /* AppDelegate.swift */; };
-		41C8629C1DAEA79600B9B3CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C8629B1DAEA79600B9B3CD /* ViewController.swift */; };
 		41C8629F1DAEA79700B9B3CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C8629D1DAEA79700B9B3CD /* Main.storyboard */; };
 		41C862A11DAEA79700B9B3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C862A01DAEA79700B9B3CD /* Assets.xcassets */; };
 		41C862A41DAEA79700B9B3CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C862A21DAEA79700B9B3CD /* LaunchScreen.storyboard */; };
@@ -17,9 +21,13 @@
 
 /* Begin PBXFileReference section */
 		2853250CDD300C45BA50B43B /* Pods_InstagramFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41251E511DAFD7D900F21E9E /* ParseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseData.swift; sourceTree = "<group>"; };
+		41251E531DAFD95900F21E9E /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		41251E571DAFF18200F21E9E /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		41251E591DAFF69000F21E9E /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		41C0FDB21DAEAAB700E967C6 /* InstaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaModel.swift; sourceTree = "<group>"; };
 		41C862961DAEA79600B9B3CD /* InstagramFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C862991DAEA79600B9B3CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41C8629B1DAEA79600B9B3CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41C8629E1DAEA79700B9B3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41C862A01DAEA79700B9B3CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C862A31DAEA79700B9B3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41251E5B1DB0020E00F21E9E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				41251E591DAFF69000F21E9E /* PhotoDetailViewController.swift */,
+				41251E531DAFD95900F21E9E /* PhotoViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		41C8628D1DAEA79600B9B3CD = {
 			isa = PBXGroup;
 			children = (
@@ -62,8 +79,11 @@
 			isa = PBXGroup;
 			children = (
 				41C862991DAEA79600B9B3CD /* AppDelegate.swift */,
-				41C8629B1DAEA79600B9B3CD /* ViewController.swift */,
 				41C8629D1DAEA79700B9B3CD /* Main.storyboard */,
+				41251E5B1DB0020E00F21E9E /* ViewControllers */,
+				41C0FDB21DAEAAB700E967C6 /* InstaModel.swift */,
+				41251E571DAFF18200F21E9E /* PhotoCell.swift */,
+				41251E511DAFD7D900F21E9E /* ParseData.swift */,
 				41C862A01DAEA79700B9B3CD /* Assets.xcassets */,
 				41C862A21DAEA79700B9B3CD /* LaunchScreen.storyboard */,
 				41C862A51DAEA79700B9B3CD /* Info.plist */,
@@ -212,8 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41C8629C1DAEA79600B9B3CD /* ViewController.swift in Sources */,
+				41251E5A1DAFF69000F21E9E /* PhotoDetailViewController.swift in Sources */,
+				41251E521DAFD7D900F21E9E /* ParseData.swift in Sources */,
+				41251E581DAFF18200F21E9E /* PhotoCell.swift in Sources */,
+				41251E541DAFD95900F21E9E /* PhotoViewController.swift in Sources */,
 				41C8629A1DAEA79600B9B3CD /* AppDelegate.swift in Sources */,
+				41C0FDB31DAEAAB700E967C6 /* InstaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +281,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -306,6 +331,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
