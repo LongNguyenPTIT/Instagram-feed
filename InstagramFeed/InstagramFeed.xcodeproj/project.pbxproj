@@ -57,6 +57,23 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
+		41251E5C1DB003EC00F21E9E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				41251E571DAFF18200F21E9E /* PhotoCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		41251E5D1DB0040200F21E9E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41251E511DAFD7D900F21E9E /* ParseData.swift */,
+				41C0FDB21DAEAAB700E967C6 /* InstaModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		41C8628D1DAEA79600B9B3CD = {
 			isa = PBXGroup;
 			children = (
@@ -81,9 +98,8 @@
 				41C862991DAEA79600B9B3CD /* AppDelegate.swift */,
 				41C8629D1DAEA79700B9B3CD /* Main.storyboard */,
 				41251E5B1DB0020E00F21E9E /* ViewControllers */,
-				41C0FDB21DAEAAB700E967C6 /* InstaModel.swift */,
-				41251E571DAFF18200F21E9E /* PhotoCell.swift */,
-				41251E511DAFD7D900F21E9E /* ParseData.swift */,
+				41251E5D1DB0040200F21E9E /* Models */,
+				41251E5C1DB003EC00F21E9E /* Cells */,
 				41C862A01DAEA79700B9B3CD /* Assets.xcassets */,
 				41C862A21DAEA79700B9B3CD /* LaunchScreen.storyboard */,
 				41C862A51DAEA79700B9B3CD /* Info.plist */,
